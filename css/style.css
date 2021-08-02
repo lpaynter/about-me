@@ -1,0 +1,84 @@
+body {
+	margin: 0px 192px;
+	font-family: 'Gowun Batang', arial, sans-serif;
+	
+}
+
+.mainHeader {
+	display: flex;
+	align-items: center;
+	height: 100px;
+	padding: 10px;
+	background-color: #D9EAD3;
+}
+
+.mainHeader h4 {
+	margin-left: 15px;
+	color: #1f3617;
+}
+
+
+.mainNavigation {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	height: 70px;
+	color: #1f3617;
+	
+}
+
+.mainNavItem {
+    display: flex;
+	justify-content: right;
+	padding: 0 16px;
+	margin-right: 45px;
+
+}
+
+.mainContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px 200px;
+	
+}
+
+.button {
+background-color:#1f3617;
+margin: 10px 0px;
+border: 5px;
+border-radius: 10px;
+color: white;
+cursor:pointer;
+padding:12px 28px;
+font-size: 12px;
+
+
+
+}
+
+.siteLogo {
+	display: flex;
+	align-items: flex-start;
+	padding: 16px;
+	color: #1f3617;
+	
+} 
+
+
+.footerNavigation {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #D9EAD3;
+	height: 70px;
+	color: #1f3617;
+}
+
+.footerItem {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 16px;
+	margin-right: 45px;
+
+}
