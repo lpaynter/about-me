@@ -1,7 +1,13 @@
 body {
 	margin: 0px 192px;
 	font-family: 'Gowun Batang', arial, sans-serif;
-	
+}
+
+h6 {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 700; 
+	font-style: normal;
 }
 
 .mainHeader {
@@ -29,7 +35,7 @@ body {
 
 .mainNavItem {
     display: flex;
-	justify-content: right;
+	justify-content: flex-end;
 	padding: 0 16px;
 	margin-right: 45px;
 
@@ -50,10 +56,23 @@ border: 5px;
 border-radius: 10px;
 color: white;
 cursor:pointer;
-padding:12px 28px;
+padding: 12px 28px;
 font-size: 12px;
 
+}
 
+.caseStudyDescription {
+	display: flex;
+	align-items: left;
+	margin: 10px 10px 10px 0px;
+	margin-right: 60px;
+}
+
+.caseStudyBody {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: space-around;
+	margin: 0px 0px 0px 20px;
 
 }
 
