@@ -1,8 +1,22 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Lisa Paynter UX/UI</title> 
     <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+<style>
+    ul.no-bullets {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+</style>
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -25,32 +39,74 @@
             <img src="images/temp logo.png" width= 75px hight=auto> 
             <h4>Lisa Paynter UX/UI Designer</h4>
         <ul class="mainNavigation">
-            <li class="mainNavItem"> About</li>
-            <li class="mainNavItem"> Skills</li>
-            <li class="mainNavItem"> Work</li>
-            <li class="mainNavItem"> Contact</li>
+            <li class="mainNavItem">About</li>
+            <li class="mainNavItem">Skills</li>
+            <li class="mainNavItem">Work</li>
+            <li class="mainNavItem">Contact</li>
             <li class="mainNavItem"> <a href="http://www.linkedin.com/in/lisapaynter/" target="_blank">Linkedin</a></p>
         </ul>
     </header>
 
 
 <!--Main Content-->
-<section >
+<section>
+  <div class="container">
     <div class="mainContent">
-        <h2>I help simplify your messaging.</h2>
-        <p>User centric designer with a print and web background that includes brand identity and guidelines, templates, email writing and automation, signage, ads, UX/UI web and app design.</p>
+        <h2>I help simplify messaging and user experiences.</h2>
+        <p>I'm a user centric designer with a print and web background that includes brand identity and guidelines and a host of other means of communication. I'm jumping into the UX world.</p>
         <img src="images/Lisa Paynter TXbbq.JPG" width=200px hight=auto>
         <a href="images/LP Resume not complete.pdf" target="blank"><button class="button">Download Resume</button></a>
     </div>
-</Section> <!--Main end-->
+
+</section>
+
+<section class="justifyContent flexContainer">
+  <div class="flexItem">
+    <img src="images/Vennruta cover.png" width=200px hight=auto>
+    <h6>Travel App</h6>
+    <p2 Class="casePara">1 ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p2>
+  </div>
+  <div class="flexItem">
+    <img src="images/Vennruta cover.png" width=200px hight=auto>
+    <h6>Consulate Website</h6>
+    <p2 Class="casePara">2 ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p2>
+  </div>
+  <div class="flexItem">
+    <img src="images/Vennruta cover.png" width=200px hight=auto>
+    <h6>Eagan Art Festival Website</h6>
+    <p2 Class="casePara">3 ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p2>
+  </div>
+</div>
+</section>
+      
+    
+
+ <!--Main end-->
 
 <!--Footer-->
 <footer>
-    <ul class="footerNavigation">
-        <li class="footerItem"> Work</li>
-        <li class="footerItem"> Skills</li>
-        <li class="footerItem"> About</li>
-        <li class="footerItem"> Contact</li>
+  <form class="myForm">
+    <div class="form-group">
+      <label>Name: </label>
+      <input type="text" name="name">
+    </div>
+    <div class="form-group">
+      <label>Email: </label>
+      <input type="text" name="mail">
+    </div>
+    <div class="form-group">
+      <label>Message: </label>
+      <textarea name="message"></textarea>
+    </div>
+    <input class="button" type="submit" value="Submit" name="">
+
+  </form>
+
+    <ul class="no-bullets footerNavigation">
+        <li class="footerItem">Work</li>
+        <li class="footerItem">Skills</li>
+        <li class="footerItem">About</li>
+        <li class="footerItem">Contact</li>
     </ul>
 </footer>
 

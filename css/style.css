@@ -1,13 +1,43 @@
 body {
 	margin: 0px 192px;
-	font-family: 'Gowun Batang', arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	background-color:whitesmoke;
+
+
 }
 
+.container {
+	width: 80%;
+	margin: auto;
+
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold; 
+	font-style: normal;
+	margin: 10px 0px 0px 0px;
+	
+}
 h6 {
-	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
 	font-weight: 700; 
 	font-style: normal;
+	text-transform: uppercase;
+	margin: 10px 0px 0px 0px;
+	
+	
+}
+
+
+.casePara {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 1.4em;
+	Margin:10px 0 10px 0;
+	padding: 5px 0px 30px 0px;
+
 }
 
 .mainHeader {
@@ -16,6 +46,7 @@ h6 {
 	height: 100px;
 	padding: 10px;
 	background-color: #D9EAD3;
+	Border-bottom-style: 3px #1f3617 double;
 }
 
 .mainHeader h4 {
@@ -26,7 +57,7 @@ h6 {
 
 .mainNavigation {
 	display: flex;
-	align-items: center;
+	justify-content: right;
 	margin: 10px;
 	height: 70px;
 	color: #1f3617;
@@ -34,46 +65,56 @@ h6 {
 }
 
 .mainNavItem {
-    display: flex;
+	display:flex;
 	justify-content: flex-end;
+	align-items: center;
 	padding: 0 16px;
 	margin-right: 45px;
+	border: 2px, solid red;
 
 }
+
 
 .mainContent {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 5px 200px;
+
 	
 }
 
 .button {
-background-color:#1f3617;
+background: linear-gradient(0.3turn, #3f87a6, #ebf8e1);
 margin: 10px 0px;
 border: 5px;
-border-radius: 10px;
-color: white;
+border-radius: 8px;
+color: #1f3617;
 cursor:pointer;
 padding: 12px 28px;
+font-family: 'Montserrat', sans-serif;
 font-size: 12px;
+font-weight: 900;
+box-shadow: 0px 2px 4px 0px #bbbbbb;
 
 }
 
-.caseStudyDescription {
-	display: flex;
-	align-items: left;
-	margin: 10px 10px 10px 0px;
-	margin-right: 60px;
+.button:hover {
+	color: rgb(224, 98, 52);
+	background: linear-gradient(0.3turn, #4f9ec0, #f4faf0);
+	box-shadow: none;
+	
 }
 
 .caseStudyBody {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: space-around;
-	margin: 0px 0px 0px 20px;
+	margin: 80px 0px;
 
+}
+
+.caseStudyBody img {
+	border-radius: 5px;
 }
 
 .siteLogo {
@@ -84,9 +125,82 @@ font-size: 12px;
 	
 } 
 
+.flexContainer {
+	display: flex;
+	align-items: center;
+	height: 480px;
+
+  }
+
+.flexItem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border:3px whitesmoke;
+	border-radius: 6px;
+	margin: 10px;
+	padding: 10px;
+	width: 250px;
+	height: 400px;
+  }
+
+.flexItem h6:hover {
+	color:coral;
+	font-weight: 900;
+	font-size: 13px;
+}  
+ 
+.justifyContent {
+	justify-content: center;
+  }
+.perfectlyCentered {
+	justify-content: center;
+	align-items: center;
+  }
+.alignItems {
+	align-items: center;
+  }
+
+
+
+li:hover {
+	color: coral;
+	border-bottom: 3px solid coral;
+	padding: 5px;
+
+}
+
+
+
+
+
+.myForm {
+	padding: 30px 200px;
+	
+}
+
+.myForm .form-group {
+	padding-bottom: 15px;
+	
+
+}
+
+.myForm label {
+	display: block;
+	
+}
+
+.myForm input[type="text"], .myForm textarea {
+	padding: 8px;
+	width: 100%;
+	border: none;
+	box-shadow: 0px 2px 4px 0px #bbbbbb;
+	border-radius: 5px;
+
+}
 
 .footerNavigation {
-	display: flex;
+	display:flex;
 	justify-content: flex-end;
 	align-items: center;
 	background-color: #D9EAD3;
@@ -95,9 +209,9 @@ font-size: 12px;
 }
 
 .footerItem {
-	display: flex;
-	justify-content: flex-end;
 	padding: 0 16px;
 	margin-right: 45px;
+	list-style: none;
 
 }
+
