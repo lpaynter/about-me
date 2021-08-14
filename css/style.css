@@ -126,6 +126,26 @@ box-shadow: 0px 2px 4px 0px #bbbbbb;
 	
 }
 
+#myBtn {background: linear-gradient(0.3turn, #3f87a6, #ebf8e1);
+	margin: 10px 0px;
+	border: 5px;
+	border-radius: 8px;
+	color: #1f3617;
+	cursor:pointer;
+	padding: 12px 28px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 900;
+	box-shadow: 0px 2px 4px 0px #bbbbbb;
+	
+	}
+	
+	#myBtn:hover {
+		color: rgb(224, 98, 52);
+		background: linear-gradient(0.3turn, #4f9ec0, #f4faf0);
+		box-shadow: none;
+	}
+
 .caseStudyBody {
 	display: flex;
 	flex-direction: column;
@@ -250,3 +270,47 @@ li:hover {
 		float:none;
 	}
 }
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border-radius: 15px;
+	border: 1px solid #aaa;
+	width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+  }

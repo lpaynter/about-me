@@ -53,14 +53,48 @@
     <header id="mainHeader">
       <div class="container">
             <h4>Lisa Paynter UX/UI Designer</h4>
+            
         <ul>
+          <li><i class="fab fa-linkedin"></i></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Skills</a></li>
           <li><a href="Vennruta_Case_Study.html">Work</a></li>
-          <li><a href="/Contact.html">Contact</a></li>
           <li><a href="http://www.linkedin.com/in/lisapaynter/" target="_blank">Linkedin</a></p>
+
+          <button id="myBtn">Contact Me</button>
         </ul>
       </div>
+      <!--<li><a href="/Contact.html">Contact</a></li>-- >
+
+      <!-- Trigger/Open The Modal      -->
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+    <form class="myForm">
+      <div class="form-group">
+        <label>Name: </label>
+        <input type="text" name="name">
+      </div>
+      <div class="form-group">
+        <label>Email: </label>
+        <input type="text" name="mail">
+      </div>
+      <div class="form-group">
+        <label>Message: </label>
+        <textarea name="message"></textarea>
+      </div>
+      <input class="button" type="submit" value="Send Message" name="">
+  
+    </form>
+  </div>
+
+</div>
     </header>
 
     
@@ -103,25 +137,17 @@
 
 <!--Footer-->
 <footer>
-  <form class="myForm">
-    <div class="form-group">
-      <label>Name: </label>
-      <input type="text" name="name">
-    </div>
-    <div class="form-group">
-      <label>Email: </label>
-      <input type="text" name="mail">
-    </div>
-    <div class="form-group">
-      <label>Message: </label>
-      <textarea name="message"></textarea>
-    </div>
-    <input class="button" type="submit" value="Submit" name="">
-
   
-    <p id="copyright">Copyright &copy; 2021 Lisa Paynter</p>
- 
+  <ul class="no-bullets footerNavigation">
+      <li class="footerItem">Work</li>
+      <li class="footerItem">Skills to come</li>
+      <li class="footerItem">About</li>
+      <li class="footerItem"><a href="Contact.html">Contact</li>
+  </ul>
+  <div id="copyright">Copyright &copy; 2021 Lisa Paynter</div>
+
 </footer>
+
 
 <script src="main.js"></script>
 
