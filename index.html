@@ -10,14 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<style>
-    ul.no-bullets {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        }
-</style>
+
+
 
 
 <!-- Hotjar Tracking Code for https://lpaynter.github.io/about-me/ -->
@@ -45,25 +42,34 @@
   gtag('config', 'G-ENCYX6WTX0');
 </script>
 
+<!-- Fontawesome 5 icons for hamburger nav -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
 </head>
   
   
 <body>
 <!--Header-->
-    <header id="mainHeader">
-      <div class="container">
-            <h4>Lisa Paynter UX/UI Designer</h4>
-            
+
+<header id="mainHeader">
+<div class="container">
+  <div class="topline">
+      <h4>Lisa Paynter UX/UI Designer</h4>
+      <button id="myBtn">Contact Me</button>
+    </div>
+         
         <ul>
-          <li><i class="fab fa-linkedin"></i></li>
+
           <li><a href="#">About</a></li>
           <li><a href="#">Skills</a></li>
-          <li><a href="Vennruta_Case_Study.html">Work</a></li>
-          <li><a href="http://www.linkedin.com/in/lisapaynter/" target="_blank">Linkedin</a></p>
-
-          <button id="myBtn">Contact Me</button>
+          <li><a href="Vennruta_Case_Study.html">Work</a></li> 
+          <li><i class="fa fa-linkedin-square" style="font-size:24px"><a href="http://www.linkedin.com/in/lisapaynter/" target="_blank"></a></i></li>
+        
         </ul>
-      </div>
+    </div>
+  </header>
+
+  </body>
       <!--<li><a href="/Contact.html">Contact</a></li>-- >
 
       <!-- Trigger/Open The Modal      -->
@@ -75,7 +81,7 @@
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
+    <p>What to say here:</p>
     <form class="myForm">
       <div class="form-group">
         <label>Name: </label>
@@ -89,7 +95,8 @@
         <label>Message: </label>
         <textarea name="message"></textarea>
       </div>
-      <input class="button" type="submit" value="Send Message" name="">
+      <input class="button" type="submit" value="Send Message" name="" href="mailto:lisa.paynter3@gmail.com">
+      
   
     </form>
   </div>
@@ -101,8 +108,9 @@
 
 
 <!--Main Content-->
+<div class="container">
+
 <section>
-  <div class="container">
     <div class="mainContent">
         <h2>I help simplify messaging and user experiences.</h2>
         <p>I'm a user centric designer with a print and web background that includes brand identity and guidelines and a host of other means of communication. I'm jumping into the UX world.</p>
@@ -112,7 +120,7 @@
 
 </section>
 
-<section class="justifyContent flexContainer">
+<section class="flexContainer">
   <div class="flexItem">
     <img src="images/Vennruta cover.png" width=200px hight=auto>
     <h6>Travel App</h6>
@@ -129,6 +137,7 @@
     <p2 Class="casePara">3 ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p2>
   </div>
 </div>
+
 </section>
       
     
@@ -138,18 +147,27 @@
 <!--Footer-->
 <footer>
   
-  <ul class="no-bullets footerNavigation">
-      <li class="footerItem">Work</li>
+ <ul class="no-bullets footerNavigation">
+  <button id="myBtn">Contact Me</button>
+
+  
+  <div id="copyright">Copyright &copy; 2021 Lisa Paynter</div> 
+
+  <!--     <li class="footerItem">Work</li>
       <li class="footerItem">Skills to come</li>
       <li class="footerItem">About</li>
       <li class="footerItem"><a href="Contact.html">Contact</li>
-  </ul>
-  <div id="copyright">Copyright &copy; 2021 Lisa Paynter</div>
+  </ul>   
+-->
 
 </footer>
 
 
 <script src="main.js"></script>
+
+<!-- jQuery and Hamburger Menu JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/hamburger.js" charset="utf-8"></script>
 
 
 </body>
