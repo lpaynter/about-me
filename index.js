@@ -25,25 +25,31 @@ window.onclick = function(event) {
   }
 }
 
-
 //Hamburger
 $(document).ready(function(){
-  $(".header-right > a").click(function() {
-    $(".hamburger-menu").addClass("active");
+    $(".header-right> a").click(function() {
+      $(".hamburger-menu").addClass("active");
   });
-  $(".close").click(function() {
-    $(".hamburger-menu").removeClass("active");
+    $(".close").click(function() {
+      $(".hamburger-menu").removeClass("active");
+      $("#toggle").on("click", function(){
+        $("#dropDown").slideToggle();
+      });
+    });
   });
-});
+
+
+
+
+
 
 
 $("#myForm").submit (function (event){
-    event.preventDefault();
+   event.preventDefault();
 let textInput = $("form-group").val();
 $()
 
-});
-
+/});
 
 
 
